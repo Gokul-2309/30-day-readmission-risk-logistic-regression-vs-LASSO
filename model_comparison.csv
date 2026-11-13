@@ -1,0 +1,3 @@
+model,test_AUC,test_Brier,n_predictors
+Logistic (statsmodels),0.6393548299681114,0.07988048905068602,49
+LASSO logistic,0.6405810843625435,0.07980582109545126,33

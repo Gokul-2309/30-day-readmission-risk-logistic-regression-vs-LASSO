@@ -1,0 +1,34 @@
+,coef
+discharge_group_Other facility,0.6517591991622204
+specialty_group_Orthopedics-Reconstructive,-0.2421746210406748
+diag_group_Respiratory,-0.23776027764006333
+diabetesMed_Yes,0.2016086187468428
+discharge_group_Home health,0.19949288249210997
+number_inpatient,0.1949185620839982
+payer_group_Unknown,0.14068481305624964
+specialty_group_Family/GeneralPractice,0.09341269579914233
+diag_group_Other,-0.08985989749013469
+diag_group_Musculoskeletal,-0.08632546793023671
+A1Cresult_Not measured,0.07477167168132068
+specialty_group_InternalMedicine,0.0709828742386706
+number_diagnoses,0.06749366485690587
+age_mid,0.0665150197512631
+specialty_group_Unknown,0.06193181562523443
+time_in_hospital,0.05829191555267019
+number_emergency,0.05084477368729731
+payer_group_Other,-0.04800130463555678
+admission_type_Other,-0.045615971167827674
+diag_group_Digestive,-0.0400472785449764
+specialty_group_Other,0.04000653573477224
+race_Caucasian,0.027410583273564177
+change_No,-0.026046702804450594
+payer_group_SP,0.022491153922425164
+num_lab_procedures,0.015344015985807417
+admission_type_Urgent,0.013259512041249952
+diag_group_Genitourinary,-0.012547095605296828
+num_medications,0.010508174241131998
+admission_type_Emergency,0.010346821530076648
+diag_group_Diabetes,0.010296634379003945
+num_procedures,-0.009404223656777
+gender_Male,0.009284962546163289
+number_outpatient,0.0014692233827450943
