@@ -1,21 +1,4 @@
-"""
-Project 2 (NumPy version): Bayesian hierarchical logistic regression for 30-day readmission.
 
-Same data, cleaning and model as the PyMC version, but the sampler (Hamiltonian Monte Carlo)
-is written by hand with NumPy. It needs only numpy, scipy, pandas, scikit-learn and matplotlib,
-so it runs in a normal Anaconda install. Keep this file in the same folder as
-readmission_glm_lasso.py (the cleaning function is imported from there).
-
-Model
-    readmit_i ~ Bernoulli( sigmoid( alpha[specialty_i] + x_i . beta ) )
-    alpha[s]  = mu_a + sigma_a * z[s]          (partial pooling across specialties)
-    z[s] ~ Normal(0, 1)   mu_a ~ Normal(-2.3, 1)   sigma_a ~ HalfNormal(0.5)   beta_j ~ Normal(0, 1)
-
-Run:
-    python bayesian_hmc.py --data data/diabetic_data.csv --out outputs_bayes
-Quick test (a few minutes):
-    python bayesian_hmc.py --data data/diabetic_data.csv --out outputs_bayes --n 5000 --draws 300 --tune 300 --chains 2
-"""
 import argparse
 import os
 import time
