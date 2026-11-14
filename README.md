@@ -12,7 +12,7 @@ Two analysis projects on the same public dataset. Both predict whether a hospita
 - **Models:** logistic regression (statsmodels) for odds ratios with confidence intervals, and LASSO logistic regression (scikit-learn) with the penalty chosen by cross-validation.
 - **Evaluation:** held-out test set, AUC, Brier score, ROC curve, calibration plot.
 - **Code:** `readmission_glm_lasso.py`
-- **Results:** `model_comparison.csv`, `glm_odds_ratios.csv`, `lasso_nonzero_coefficients.csv`, `roc.png`, `calibration.png`, `forest_plot.png`, `coef_shrinkage.png`
+- **Results:** `specialty_baselines.csv, bayes_odds_ratios.csv, posterior_summary.csv, model_performance.csv, trace.png, specialty_baselines.png, bayes_odds_ratios.png, sigma_posterior.png
 
 ## Project 2: Bayesian hierarchical model
 
